@@ -1,0 +1,37 @@
+body {
+  background: hotpink;
+  display:flex;
+   justify-content: center;
+   
+   
+}
+#first{
+  background:tomato;
+  margin:50px;
+  height:180px;
+  width:180px;
+  display : flex;
+   flex-direction: column;
+  border-style:solid;
+    justify-content: space-evenly;
+   align-items: center;
+}
+.inside{
+  background:green;
+    height:25px;
+  width:25px;
+  margin:10px;
+    border-color:white;
+
+}
+#one{
+  border-style: solid;
+  border-color:white;
+}
+#two{
+  border-style: dashed;
+width:100px;  
+}
+#three{
+  border-style: solid;
+}
