@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-content: center;
+}
+.header{
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 174, 0);
+  margin:5px;
+  height: 50px;
+}
+.header>span{
+  font-style: initial;
+}
+.searchBooks{
+  display: flex;
+  justify-content: center;
+}
+.searchBooks>form>input{
+  width: 300px;
+}
